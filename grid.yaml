@@ -11,7 +11,7 @@ services:
       replicas: 0
     env_file: .env
   firefox:
-    image: seleniarm/node-firefox:4.12
+    image: seleniarm/node-firefox:4.18
     shm_size: '2g'
     depends_on:
     - hub  
